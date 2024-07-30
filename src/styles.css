@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+}
+
+.header--image {
+    height: 100%;
+    margin-right: 6px;
+}
+
+.header--title {
+    font-size: 1.25rem;
+    margin-right: auto;
+}
+
+.header--project {
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.form {
+    margin: .75rem 0;
+    padding: 1.25rem;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.form--label {
+    font-weight: 300;
+}
+
+.form--input {
+    padding: .4rem;
+    margin-top: .15rem;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    /* text-indent: 5px; */
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    padding: .45rem;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 2rem;
+}
+
+.meme--image {
+    height: 568px;
+    width: 100%;
+}
