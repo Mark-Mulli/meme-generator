@@ -1,7 +1,5 @@
 import React from "react";
 
-import memesObj from "../memesData";
-
 export default function Form() {
 
     const [meme, setMeme] = React.useState({
